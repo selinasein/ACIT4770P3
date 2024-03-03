@@ -7,22 +7,22 @@ import BrowseItem from "@/components/BrowseItem";
 
 const newAuctions = [
   {
-    src: "/images/new/1.jpg",
+    src: "/images/new/1.JPG",
     alt: "Description of Image 1",
     link: "https://gsaauctions.gov/auctions/preview/273744",
   },
   {
-    src: "/images/new/2.jpg",
+    src: "/images/new/2.JPG",
     alt: "Description of Image 2",
     link: "https://gsaauctions.gov/auctions/preview/273745",
   },
   {
-    src: "/images/new/3.jpg",
+    src: "/images/new/3.JPG",
     alt: "Description of Image 3",
     link: "https://gsaauctions.gov/auctions/preview/273752",
   },
   {
-    src: "/images/new/4.jpg",
+    src: "/images/new/4.JPG",
     alt: "Description of Image 4",
     link: "https://gsaauctions.gov/auctions/preview/273754",
   },
@@ -43,19 +43,19 @@ const closingAuctions = [
 
 const activeAuctions = [
   {
-    src: "/images/active/1.jpg",
+    src: "/images/active/1.JPG",
     alt: "Description of Image 1",
     link: "https://gsaauctions.gov/auctions/preview/274618",
   },
 
   {
-    src: "/images/active/3.jpg",
+    src: "/images/active/3.JPG",
     alt: "Description of Image 3",
     link: "https://gsaauctions.gov/auctions/preview/274619",
   },
 
   {
-    src: "/images/active/5.jpg",
+    src: "/images/active/5.JPG",
     alt: "Description of Image 4",
     link: "https://gsaauctions.gov/auctions/preview/274547",
   },
@@ -67,6 +67,32 @@ export default function Home() {
       <div className="flex flex-col gap-1 w-full">
         <Searchbox />
       </div>
+
+      <div
+        className="hero w-screen h-fit mt-3 mb-3"
+        style={{
+          backgroundImage: "url(/banner.png)",
+        }}
+      >
+        <div className="hero-overlay bg-opacity-60"></div>
+        <div className="hero-content text-center text-neutral-content">
+          <div className="max-w-md">
+            <h1 className="mb-5 text-5xl font-bold">
+              GSA Auctions has a new look!
+            </h1>
+            <p className="mb-5">Watch this video to learn more.</p>
+            <a href="https://www.youtube.com/watch?v=Aqm0yIzmrMI">
+              <button
+                className="btn"
+                style={{ backgroundColor: "#1a4480", color: "#ffffff" }}
+              >
+                Watch
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div className="m-5">
         <h1 className="text-2xl md:text-4xl mt-5 md:mt-3 mb-10 font-semibold text-[#1a4480] divider">
           Featured Items

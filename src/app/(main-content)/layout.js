@@ -22,9 +22,9 @@ export default function RootLayout({ children }) {
     <PopoverContent>
       <div className="px-4 py-6 mx-auto max-w-[64rem] bg-transparent text-base overflow-hidden pt-1 pr-4 pb-4 pl-2 w-full">
         <div className="m-3 grid md:grid-cols-2 gap-5">
-          <div class="flex items-start max-w-[64rem]">
+          <div className="flex items-start max-w-[64rem]">
             <img
-              class="w-16 h-16 mr-4"
+              className="w-16 h-16 mr-4"
               src="/icons/courthouse.png"
               alt="Courthouse"
             />
@@ -32,15 +32,15 @@ export default function RootLayout({ children }) {
               <p>
                 <strong>The .gov means it&aposs official.</strong>
                 <br />
-                &quotFederal government websites often end in .gov or .mil. Before
-                sharing sensitive information, make sure you&aposre on a federal
-                government site.&quot
+                &quotFederal government websites often end in .gov or .mil.
+                Before sharing sensitive information, make sure you&aposre on a
+                federal government site.&quot
               </p>
             </div>
           </div>
-          <div class="flex items-start max-w-[64rem]">
+          <div className="flex items-start max-w-[64rem]">
             <img
-              class="w-16 h-16 mr-4"
+              className="w-16 h-16 mr-4"
               src="/icons/security.png"
               alt="Courthouse"
             />
@@ -48,9 +48,9 @@ export default function RootLayout({ children }) {
               <p>
                 <strong>The site is secure.</strong>
                 <br />
-                &quotThe <strong>https://</strong> ensures that you are connecting
-                to the official website and that any information you provide is
-                encrypted and transmitted securely.&quot
+                &quotThe <strong>https://</strong> ensures that you are
+                connecting to the official website and that any information you
+                provide is encrypted and transmitted securely.&quot
               </p>
             </div>
           </div>

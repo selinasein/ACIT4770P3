@@ -53,10 +53,10 @@ export default function Footer() {
             className="h-20 w-auto mr-2" // Added mr-2 for a little space between the logo and the text
           />
           <div>
-            <p class="mb-4">About Us</p>
+            <p className="mb-4">About Us</p>
             <p>
               For further inquiry, please call us at{" "}
-              <strong class="font-bold">(866)333-7472</strong>
+              <strong className="font-bold">(866)333-7472</strong>
             </p>
           </div>
         </a>
