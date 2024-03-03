@@ -32,9 +32,9 @@ export default function RootLayout({ children }) {
               <p>
                 <strong>The .gov means it&aposs official.</strong>
                 <br />
-                "Federal government websites often end in .gov or .mil. Before
+                &quotFederal government websites often end in .gov or .mil. Before
                 sharing sensitive information, make sure you&aposre on a federal
-                government site."
+                government site.&quot
               </p>
             </div>
           </div>
@@ -48,9 +48,9 @@ export default function RootLayout({ children }) {
               <p>
                 <strong>The site is secure.</strong>
                 <br />
-                "The <strong>https://</strong> ensures that you are connecting
+                &quotThe <strong>https://</strong> ensures that you are connecting
                 to the official website and that any information you provide is
-                encrypted and transmitted securely."
+                encrypted and transmitted securely.&quot
               </p>
             </div>
           </div>
