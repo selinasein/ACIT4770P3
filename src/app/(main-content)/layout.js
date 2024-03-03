@@ -30,10 +30,10 @@ export default function RootLayout({ children }) {
             />
             <div className="flex-grow flex-shrink">
               <p>
-                <strong>The .gov means it's official.</strong>
+                <strong>The .gov means it&aposs official.</strong>
                 <br />
                 "Federal government websites often end in .gov or .mil. Before
-                sharing sensitive information, make sure you're on a federal
+                sharing sensitive information, make sure you&aposre on a federal
                 government site."
               </p>
             </div>
